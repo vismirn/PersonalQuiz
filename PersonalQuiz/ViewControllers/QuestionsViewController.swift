@@ -30,7 +30,13 @@ final class QuestionsViewController: UIViewController {
     private var currentAnswers: [Answer] {
         questions[questionIndex].answers
     }
-
+    // MARK: - Private Var for count
+    private var countDog = 0
+    private var countCat = 0
+    private var countRabbit = 0
+    private var countTurtle = 0
+    
+    
     // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +51,19 @@ final class QuestionsViewController: UIViewController {
         guard let buttonIndex = singleButtons.firstIndex(of: sender) else { return }
         let currentAnswer = currentAnswers[buttonIndex]
         answersChosen.append(currentAnswer)
+        if currentAnswer.title == "Стейк" {
+            countDog += 1
+        } else if currentAnswer.title == "Рыба"  {
+            countCat += 1
+        } else if currentAnswer.title == "Морковь" {
+            countRabbit += 1
+        } else if currentAnswer.title == "Кукуруза" {
+            countTurtle += 1
+        }
+        print(countDog)
+        print(countCat)
+        print(countRabbit)
+        print(countTurtle)
         nextQuestion()
     }
     

@@ -14,9 +14,6 @@ final class ResultViewController: UIViewController {
 
     }
     
-//    let vc = showDetailViewController(ResultViewController, sender: <#T##Any?#>)
-    
-    
     @IBAction func doneBarItem(_ sender: UIBarButtonItem) {
         dismiss(animated: true)
     }
