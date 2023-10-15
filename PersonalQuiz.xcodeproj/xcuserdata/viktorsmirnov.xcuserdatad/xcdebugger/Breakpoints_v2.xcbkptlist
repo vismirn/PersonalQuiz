@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "04E8888A-57C8-4CDF-A140-FA68A7791F00"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91162341-0B03-48D5-B5AA-3B5D1C771BAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PersonalQuiz/ViewControllers/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getResultFromArray()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91162341-0B03-48D5-B5AA-3B5D1C771BAA - 6aaa343c6bf040cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalQuiz.ResultViewController.getResultFromArray() -&gt; ()"
+                  moduleName = "PersonalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktorsmirnov/Desktop/Lesson%202.08/PersonalQuiz/PersonalQuiz/ViewControllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "91162341-0B03-48D5-B5AA-3B5D1C771BAA - 6aaa343c6bf040ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalQuiz.ResultViewController.getResultFromArray() -&gt; ()"
+                  moduleName = "PersonalQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viktorsmirnov/Desktop/Lesson%202.08/PersonalQuiz/PersonalQuiz/ViewControllers/ResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

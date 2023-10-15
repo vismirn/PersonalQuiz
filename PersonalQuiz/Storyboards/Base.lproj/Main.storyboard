@@ -334,6 +334,10 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="qSx-Eb-Obe" id="Obj-SJ-keZ"/>
+                        <outlet property="resultNameLabel" destination="uYQ-GR-Lb9" id="pS4-5t-eQs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6N5-Z1-Rpq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

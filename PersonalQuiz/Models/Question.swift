@@ -55,6 +55,15 @@ enum ResponseType {
 struct Answer {
     let title: String
     let animal: Animal
+    
+    static func getAnswers() -> [Answer] {
+        [
+        Answer(title: "Собака", animal: .dog),
+        Answer(title: "Кошка", animal: .cat),
+        Answer(title: "Кролик", animal: .rabbit),
+        Answer(title: "Черепаха", animal: .turtle)
+        ]
+    }
 }
 
 enum Animal: Character {
